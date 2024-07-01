@@ -12,7 +12,7 @@ import SwiftData
 final class Note {
     var content: String
     var isFavorite: Bool = false
-    var category: NoteCategory
+    var category: NoteCategory?
     
     init(content: String, category: NoteCategory) {
         self.content = content

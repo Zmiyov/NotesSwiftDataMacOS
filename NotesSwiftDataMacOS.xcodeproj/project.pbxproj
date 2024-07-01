@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A505EDC92C33338600791DC6 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A505EDC82C33338600791DC6 /* NotesView.swift */; };
 		A5AE123F2C20DD65005966DE /* NotesSwiftDataMacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AE123E2C20DD65005966DE /* NotesSwiftDataMacOSApp.swift */; };
 		A5AE12412C20DD65005966DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AE12402C20DD65005966DE /* ContentView.swift */; };
-		A5AE12432C20DD65005966DE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AE12422C20DD65005966DE /* Item.swift */; };
 		A5AE12452C20DD66005966DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AE12442C20DD66005966DE /* Assets.xcassets */; };
 		A5AE12482C20DD66005966DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AE12472C20DD66005966DE /* Preview Assets.xcassets */; };
 		A5AE12512C20DDD6005966DE /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AE12502C20DDD6005966DE /* Note.swift */; };
@@ -18,10 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A505EDC82C33338600791DC6 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		A5AE123B2C20DD65005966DE /* NotesSwiftDataMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesSwiftDataMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AE123E2C20DD65005966DE /* NotesSwiftDataMacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesSwiftDataMacOSApp.swift; sourceTree = "<group>"; };
 		A5AE12402C20DD65005966DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A5AE12422C20DD65005966DE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A5AE12442C20DD66005966DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5AE12472C20DD66005966DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5AE12492C20DD66005966DE /* NotesSwiftDataMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotesSwiftDataMacOS.entitlements; sourceTree = "<group>"; };
@@ -64,7 +64,6 @@
 				A5AE124F2C20DDCB005966DE /* Model */,
 				A5AE123E2C20DD65005966DE /* NotesSwiftDataMacOSApp.swift */,
 				A5AE12402C20DD65005966DE /* ContentView.swift */,
-				A5AE12422C20DD65005966DE /* Item.swift */,
 				A5AE12442C20DD66005966DE /* Assets.xcassets */,
 				A5AE12492C20DD66005966DE /* NotesSwiftDataMacOS.entitlements */,
 				A5AE12462C20DD66005966DE /* Preview Content */,
@@ -93,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				A5AE12552C20E051005966DE /* Home.swift */,
+				A505EDC82C33338600791DC6 /* NotesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 			files = (
 				A5AE12532C20DE4D005966DE /* NoteCategory.swift in Sources */,
 				A5AE12412C20DD65005966DE /* ContentView.swift in Sources */,
-				A5AE12432C20DD65005966DE /* Item.swift in Sources */,
+				A505EDC92C33338600791DC6 /* NotesView.swift in Sources */,
 				A5AE123F2C20DD65005966DE /* NotesSwiftDataMacOSApp.swift in Sources */,
 				A5AE12562C20E051005966DE /* Home.swift in Sources */,
 				A5AE12512C20DDD6005966DE /* Note.swift in Sources */,
